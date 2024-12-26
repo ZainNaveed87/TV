@@ -1,0 +1,43 @@
+body {
+    font-family: Breakup;
+    background-color: rgb(14, 26, 41);
+    margin: 0; /* Default margin hata diya */
+    padding: 0; /* Default padding hata diya */
+}
+
+a {
+    margin-left: 250px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Breakup';
+    src: url(./Lato/Lato-Bold.ttf);
+}
+
+a:hover {
+    color: aqua;
+    transition: 0.3s;
+}
+
+.nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(94, 89, 89);
+    margin: 20px auto; /* Body ke andar center karne ke liye */
+    width: 80%; /* Body se chhota banaya */
+    height: 520px; /* Specific height */
+    border-radius: 10px; /* Rounded corners ke liye */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+iframe {
+    box-shadow: #333;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left:90px;
+}
